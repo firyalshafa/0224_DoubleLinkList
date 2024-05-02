@@ -30,7 +30,8 @@ void addnode() {
         if (START != NULL) {
             START->prev = newnode;
         }
-        newnode -> prev = NULL 
+        newnode->prev = NULL;
+        START = newnode;
     }
 }
 
