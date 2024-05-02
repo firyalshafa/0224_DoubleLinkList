@@ -27,6 +27,9 @@ void addnode() {
             return;
         }
         newnode->next = START;
+        if (START != NULL) {
+            START->prev = newnode;
+        }
     }
 }
 
