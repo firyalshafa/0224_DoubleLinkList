@@ -12,6 +12,13 @@ struct node {
     node* prev;
 };
 
+node* START = NULL;
+
+void addnode() {
+    node* newnode = new node(); // step 1, create a new node 
+}
+
+
 
 int main()
 {
