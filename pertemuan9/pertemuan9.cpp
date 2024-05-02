@@ -5,6 +5,11 @@
 #include <string>
 using namespace std;
 
+struct node {
+    int noMhs;
+
+};
+
 
 int main()
 {
