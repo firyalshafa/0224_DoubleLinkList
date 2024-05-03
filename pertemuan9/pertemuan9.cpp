@@ -207,6 +207,10 @@ int main()
             case '2':
                 deleteNode();
                 break;
+                
+            case'3':
+                traverse();
+                break;
             }
 
         }
