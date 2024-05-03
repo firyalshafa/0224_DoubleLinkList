@@ -33,6 +33,9 @@ void addnode() {
         newnode->prev = NULL;
         START = newnode;
     }
+    else {
+        node* current = START;
+    }
 }
 
 
