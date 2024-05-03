@@ -220,6 +220,10 @@ int main()
                 searchData();
                 break;
 
+            case'6':
+                return 0;
+
+
 
             }
 
