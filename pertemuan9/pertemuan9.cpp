@@ -198,6 +198,13 @@ int main()
             char ch;
             cin >> ch;
 
+            switch (ch)
+            {
+            case'1' :
+                addnode();
+                break;
+            }
+
         }
 
     }
