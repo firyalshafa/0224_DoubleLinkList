@@ -119,6 +119,11 @@ void deleteNode()
     cout << "\x1b[32mRecod with roll number" << rollNo << "deleted\x1b[0m" << endl;    
 }
 
+bool listEmpty()
+{
+    return (START == NULL);
+}
+
 
 
 int main()
